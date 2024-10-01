@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\labsfiap\\Downloads\\web-app-performance\\",
+  "WorkspaceRootPath": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\web-app-performance\\web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\microservices-app\\web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\web-app-performance\\web-app-performance\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\microservices-app\\web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\web-app-performance\\web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\web-app-performance\\web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "web-app-performance\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAwwGEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T23:14:02.245Z",
+              "WhenOpened": "2024-10-01T22:51:05.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\web-app-performance\\web-app-performance\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\web-app-performance\\web-app-performance\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAiwEEAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Model\\Produto.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Model\\Produto.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Model\\Produto.cs",
+              "RelativeToolTip": "web-app-performance\\Model\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T23:13:59.897Z",
+              "WhenOpened": "2024-10-01T22:47:23.701Z",
               "EditorCaption": ""
             }
           ]
