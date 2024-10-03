@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web-app-performance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e23b03e56bc27a556f5e1bf0efd8a128d5dacb13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+667cef990b469392d8fe0f58b509762c2ea45c1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("web-app-performance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web-app-performance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

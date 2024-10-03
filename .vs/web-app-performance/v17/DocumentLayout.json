@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\",
+  "WorkspaceRootPath": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\microservices-app\\web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\microservices-app\\web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-performance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-repository\\web-app-repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15B26AA6-8343-471A-A258-7A4176FDE091}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\web-app-repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59BB232C-8841-43BD-8E13-EDE9C590BECF}|web-app-domain\\web-app-domain.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt1-microservices\\web-app-domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59BB232C-8841-43BD-8E13-EDE9C590BECF}|web-app-domain\\web-app-domain.csproj|solutionrelative:web-app-domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAwwGEAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "web-app-repository\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\IUsuarioRepository.cs",
+              "RelativeToolTip": "web-app-repository\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:51:05.128Z",
+              "WhenOpened": "2024-10-03T23:39:26.357Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Model\\Produto.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Model\\Produto.cs",
-              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\microservices-app\\web-app-performance\\Model\\Produto.cs",
-              "RelativeToolTip": "web-app-performance\\Model\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-performance\\Program.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Program.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-performance\\Program.cs",
+              "RelativeToolTip": "web-app-performance\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T22:47:23.701Z",
+              "WhenOpened": "2024-10-03T23:47:58.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-domain\\Usuario.cs",
+              "RelativeDocumentMoniker": "web-app-domain\\Usuario.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-domain\\Usuario.cs",
+              "RelativeToolTip": "web-app-domain\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:25:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "web-app-repository",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\web-app-repository.csproj",
+              "RelativeDocumentMoniker": "web-app-repository\\web-app-repository.csproj",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\web-app-repository.csproj",
+              "RelativeToolTip": "web-app-repository\\web-app-repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T23:18:15.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "web-app-repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "web-app-repository\\UsuarioRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:11:04.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-performance\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt1-microservices\\web-app-performance\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "web-app-performance\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAmwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T23:20:45.107Z",
               "EditorCaption": ""
             }
           ]

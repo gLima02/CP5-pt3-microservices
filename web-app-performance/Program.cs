@@ -1,3 +1,5 @@
+using web_app_repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//no web-app-performance é necessario importar os dois arquivos no import de projetos na dependencias
+//Configurar injecao da dependencia
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
