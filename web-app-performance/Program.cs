@@ -12,6 +12,8 @@ builder.Services.AddSwaggerGen();
 //no web-app-performance é necessario importar os dois arquivos no import de projetos na dependencias
 //Configurar injecao da dependencia
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

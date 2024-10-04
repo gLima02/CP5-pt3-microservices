@@ -1,9 +1,9 @@
-﻿using Dapper;
-using Microsoft.AspNetCore.Mvc;
-using MySqlConnector;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 using web_app_performance.Model;
+using web_app_repository;
+using web_app_domain;
 
 namespace web_app_performance.Controllers
 {
@@ -12,6 +12,12 @@ namespace web_app_performance.Controllers
     public class ProdutoController : ControllerBase
     {
         private static ConnectionMultiplexer redis;
+        private readonly IProdutoRepository _repository;
+
+        public ProdutoController(IProdutoRepository repository)
+        {
+            _repository = repository;
+        }
 
         [HttpGet]
         public async Task<IActionResult> GetProduto()
@@ -19,21 +25,18 @@ namespace web_app_performance.Controllers
             string key = "getproduto";
             redis = ConnectionMultiplexer.Connect("localhost:6379");
             IDatabase db = redis.GetDatabase();
-            await db.KeyExpireAsync(key, TimeSpan.FromMinutes(10));
-            string user = await db.StringGetAsync(key);
 
-            if (!string.IsNullOrEmpty(user))
+            string product = await db.StringGetAsync(key);
+
+            if (!string.IsNullOrEmpty(product))
             {
-                return Ok(user);
+                return Ok(product);
             }
 
-            string connectionString = "Server=localhost;Database=sys;User=root;Password=123;";
-            using var connection = new MySqlConnection(connectionString);
-            await connection.OpenAsync();
-            string query = "select Id, nome, preco, quantidade_estoque, data_criacao from produtos;";
-            var produtos = await connection.QueryAsync<Produto>(query);
+            var produtos = await _repository.ListarProdutos();
             string produtosJson = JsonConvert.SerializeObject(produtos);
-            await db.StringSetAsync(key, produtosJson);
+
+            await db.StringSetAsync(key, produtosJson, TimeSpan.FromMinutes(10));
 
             return Ok(produtos);
         }
@@ -41,15 +44,8 @@ namespace web_app_performance.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Produto produto)
         {
-            string connectionString = "Server=localhost;Database=sys;User=root;Password=123;";
-            using var connection = new MySqlConnection(connectionString);
-            await connection.OpenAsync();
+            await _repository.SalvarProduto(produto);
 
-            string sql = @"INSERT INTO produtos(nome, preco, quantidade_estoque, data_criacao) 
-               VALUES (@nome, @preco, @quantidade_estoque, NOW());";
-            await connection.ExecuteAsync(sql, produto);
-
-            //apagar o cachê
             string key = "getproduto";
             redis = ConnectionMultiplexer.Connect("localhost:6379");
             IDatabase db = redis.GetDatabase();
@@ -61,20 +57,8 @@ namespace web_app_performance.Controllers
         [HttpPut]
         public async Task<IActionResult> Put([FromBody] Produto produto)
         {
-            string connectionString = "Server=localhost;Database=sys;User=root;Password=123;";
-            using var connection = new MySqlConnection(connectionString);
-            await connection.OpenAsync();
+            await _repository.AtualizarProduto(produto);
 
-            string sql = @"update produtos 
-                            set nome = @nome,
-                                preco = @preco,
-                                quantidade_estoque = @quantidade_estoque,
-                                data_criacao = @data_criacao
-                            where Id = @id;";
-
-            await connection.ExecuteAsync(sql, produto);
-
-            //apagar o cachê
             string key = "getproduto";
             redis = ConnectionMultiplexer.Connect("localhost:6379");
             IDatabase db = redis.GetDatabase();
@@ -86,15 +70,8 @@ namespace web_app_performance.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            string connectionString = "Server=localhost;Database=sys;User=root;Password=123;";
-            using var connection = new MySqlConnection(connectionString);
-            await connection.OpenAsync();
+            await _repository.RemoverProduto(id);
 
-            string sql = @"delete from produtos where Id = @id;";
-
-            await connection.ExecuteAsync(sql, new { id });
-
-            //apagar o cachê
             string key = "getproduto";
             redis = ConnectionMultiplexer.Connect("localhost:6379");
             IDatabase db = redis.GetDatabase();
