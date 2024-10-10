@@ -24,20 +24,24 @@ namespace web_app_performance.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUsuario()
         {
-            string key = "getusuario";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
-            string user = await db.StringGetAsync(key);
+            //string key = "getusuario";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
+            //string user = await db.StringGetAsync(key);
 
-            if (!string.IsNullOrEmpty(user))
-            {
-                return Ok(user);
-            }
+            //if (!string.IsNullOrEmpty(user))
+            //{
+            //    return Ok(user);
+            //}
 
             var usuarios = await _repository.ListarUsuarios(); //ja isolada na repository
             string usuariosJson = JsonConvert.SerializeObject(usuarios);
-            await db.StringSetAsync(key, usuariosJson);
+            if(usuarios == null)
+            {
+                return NotFound();
+            }
+            //await db.StringSetAsync(key, usuariosJson);
 
             return Ok(usuarios);
         }
