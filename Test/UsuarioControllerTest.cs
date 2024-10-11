@@ -75,8 +75,8 @@ namespace Test
             //Act
             var result = await _controller.Post(usuario);
 
-            //Assert.IsType<OkObjectResult>(result);
 
+            Assert.IsType<OkResult>(result);
             _userRepositoryMock.Verify(u => u.SalvarUsuario(It.IsAny<Usuario>()), Times.Once());
         
         }
