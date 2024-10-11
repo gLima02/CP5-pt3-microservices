@@ -49,5 +49,37 @@ namespace Test
             Assert.Equal(JsonConvert.SerializeObject(usuarios), JsonConvert.SerializeObject(okResult.Value));
         }
 
+        [Fact]
+        public async Task Get_ListarRetornarNotFound()
+        {
+            _userRepositoryMock.Setup(u => u.ListarUsuarios()).ReturnsAsync((IEnumerable<Usuario>)null);
+        
+            var result = await _controller.GetUsuario();
+
+            Assert.IsType<NotFoundResult>(result);
+
+        }
+
+        [Fact]
+        public async Task Post_SalvarUsuario()
+        {
+            //arrange
+            var usuario = new Usuario()
+            {
+                Id = 1,
+                Email = "rm93401@fiap.com",
+                Nome = "Guilherme Lima"
+            };
+            _userRepositoryMock.Setup(u => u.SalvarUsuario(It.IsAny<Usuario>())).Returns(Task.CompletedTask);
+
+            //Act
+            var result = await _controller.Post(usuario);
+
+            //Assert.IsType<OkObjectResult>(result);
+
+            _userRepositoryMock.Verify(u => u.SalvarUsuario(It.IsAny<Usuario>()), Times.Once());
+        
+        }
+
     }
 }
