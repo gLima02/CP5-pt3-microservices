@@ -57,7 +57,7 @@ namespace web_app_performance.Controllers
             //IDatabase db = redis.GetDatabase();
             //await db.KeyDeleteAsync(key);
 
-            return Ok();
+            return Ok(new {mensagem = "Criado com sucesso!"});
         }
 
         [HttpPut]

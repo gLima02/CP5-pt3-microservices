@@ -35,8 +35,11 @@ namespace web_app_performance.Controllers
 
             var produtos = await _repository.ListarProdutos();
             string produtosJson = JsonConvert.SerializeObject(produtos);
-
-           // await db.StringSetAsync(key, produtosJson, TimeSpan.FromMinutes(10));
+            if (produtos == null)
+            {
+                return NotFound();
+            }
+            // await db.StringSetAsync(key, produtosJson, TimeSpan.FromMinutes(10));
 
             return Ok(produtos);
         }
@@ -46,12 +49,12 @@ namespace web_app_performance.Controllers
         {
             await _repository.SalvarProduto(produto);
 
-            string key = "getproduto";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getproduto";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
 
-            return Ok();
+            return Ok(new { mensagem = "Criado com sucesso!" });
         }
 
         [HttpPut]

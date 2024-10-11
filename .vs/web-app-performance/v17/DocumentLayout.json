@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BF4DEB2-9A5D-4F31-BAA5-FE44E26FF0FF}|Test\\Test.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt2-microservices\\test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BF4DEB2-9A5D-4F31-BAA5-FE44E26FF0FF}|Test\\Test.csproj|solutionrelative:test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt2-microservices\\web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt2-microservices\\web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF4DEB2-9A5D-4F31-BAA5-FE44E26FF0FF}|Test\\Test.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt2-microservices\\test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF4DEB2-9A5D-4F31-BAA5-FE44E26FF0FF}|Test\\Test.csproj|solutionrelative:test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BF4DEB2-9A5D-4F31-BAA5-FE44E26FF0FF}|Test\\Test.csproj|c:\\users\\labsfiap\\downloads\\cp5-pt2-microservices\\test\\produtocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -57,20 +61,20 @@
               "RelativeDocumentMoniker": "Test\\ProdutoControllerTest.cs",
               "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\Test\\ProdutoControllerTest.cs",
               "RelativeToolTip": "Test\\ProdutoControllerTest.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAMwDoAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwD0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:47:00.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuarioControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\Test\\UsuarioControllerTest.cs",
               "RelativeDocumentMoniker": "Test\\UsuarioControllerTest.cs",
               "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\Test\\UsuarioControllerTest.cs",
               "RelativeToolTip": "Test\\UsuarioControllerTest.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwEwAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:14:44.083Z",
               "EditorCaption": ""
@@ -90,26 +94,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\web-app-performance\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "web-app-performance\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\web-app-performance\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "web-app-performance\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCMAAAA+AAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:55:15.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\web-app-performance\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "web-app-performance\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\labsfiap\\Downloads\\CP5-pt2-microservices\\web-app-performance\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "web-app-performance\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwD4AAAARAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:08:31.913Z",
               "EditorCaption": ""
